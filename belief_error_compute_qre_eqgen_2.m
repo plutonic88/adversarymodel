@@ -1,4 +1,4 @@
-function [belief_error_vector] = oneshot_qre_v2(x, lambda)
+function [belief_error_vector] = belief_error_compute_qre_eqgen_2(x, lambda)
 
 d0_p0_0_0 = x(1);
 d0_p0_0_1 = x(2);
